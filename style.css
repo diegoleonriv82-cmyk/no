@@ -11,20 +11,18 @@
     overflow: hidden;
 }
 .green{
-   height: 150px;
-   width: 100px;
+   width: 20vw;
    position: absolute;
-   bottom: -4px;
-   left: -14vw;
+   bottom: -15vh;
+   left: 0vw;
 }
 .dark{
-    height: 53px;
-    width: 35px;
+    width: 15vw;
     position: absolute;
     top: 2px;
-    right: 22vw;
+    right: 0vw;
     img{
-        width: 150px;
+        width: 100%;
     }
 }
 .botones{
