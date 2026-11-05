@@ -15,6 +15,9 @@
    position: absolute;
    bottom: -15vh;
    left: 0vw;
+    img{
+        width:100%;
+    }
 }
 .dark{
     width: 15vw;
