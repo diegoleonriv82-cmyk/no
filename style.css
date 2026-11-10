@@ -11,21 +11,21 @@
     overflow: hidden;
 }
 .green{
+   height: 150px;
    width: 20vw;
    position: absolute;
-   bottom: -15vh;
-   left: 0vw;
-    img{
-        width:100%;
-    }
+   bottom: -4px;
+   img{
+    width: 100%;
+   }
 }
 .dark{
-    width: 15vw;
+    width: 20vw;
     position: absolute;
     top: 2px;
-    right: 0vw;
+    right: -6vw;
     img{
-        width: 100%;
+        width: 100%; 
     }
 }
 .botones{
@@ -34,13 +34,16 @@
     justify-content: center;
     gap: 6px;
     width: 88vw;
+    button{
+        min-width:100px;
+    } 
 }
 .salud1{
-    width: 24vw;
+    width: 30vw;
     background-color: rgba(0, 0, 0, 0.326);
     position: absolute;
     right: 10px;
-    top: 200px;
+    bottom: 100px;
     display: flex;
     flex-wrap: wrap;
     padding: 6px;
@@ -48,10 +51,10 @@
     gap:12px
 }
 .salud2{
-    width: 24vw;
+    width: 30vw;
     background-color: rgba(0, 0, 0, 0.326) ;
     position: absolute;
-    right: 200px;
+    right: 23vw;
     top: 22px;
     display: flex;
     flex-wrap: wrap;
